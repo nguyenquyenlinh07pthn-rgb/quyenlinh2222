@@ -52,10 +52,4 @@ def main():
 if __name__ == "__main__":
     main()
     #phuc
-    #linh
-    #lllllll
-    #khkhkhhkkk
-    #dmmm
-    ##dhdhdh
-    #jjjjjjjj
-    #linhhhhhhhhhhh
+    
