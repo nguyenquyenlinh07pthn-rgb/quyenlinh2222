@@ -4,7 +4,7 @@ import product_manager as pm
 def main():
     print("CHÀO MỪNG ĐẾN VỚI HỆ THỐNG QUẢN LÝ POLYLAP")
     
-    # 1. Tải dữ liệu khi khởi động
+    
     products = pm.load_data()
     print(f"Đã tải {len(products)} sản phẩm từ hệ thống.")
 
