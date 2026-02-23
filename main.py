@@ -4,7 +4,7 @@ import product_manager as pm
 def main():
     print("CHÀO MỪNG ĐẾN VỚI HỆ THỐNG QUẢN LÝ POLYLAP")
     
-    
+    # 1. Tải dữ liệu khi khởi động
     products = pm.load_data()
     print(f"Đã tải {len(products)} sản phẩm từ hệ thống.")
 
@@ -43,7 +43,7 @@ def main():
         elif choice == '0':
             print("Đang lưu dữ liệu trước khi thoát...")
             pm.save_data(products)
-            print("Cảm ơn bạn đã sử dụng phần mềm POLYLAP. Tạm biệt")
+            print("Cảm ơn bạn đã sử dụng phần mềm POLYLAP. Tạm biệt!")
             break
             
         else:
@@ -51,5 +51,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-    #phuc
-    
