@@ -43,7 +43,7 @@ def main():
         elif choice == '0':
             print("Đang lưu dữ liệu trước khi thoát...")
             pm.save_data(products)
-            print("Cảm ơn bạn đã sử dụng phần mềm POLYLAP. Tạm biệt!")
+            print("Cảm ơn bạn đã sử dụng phần mềm POLYLAP. Tạm biệt")
             break
             
         else:
@@ -51,3 +51,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    #phuc
